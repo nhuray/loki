@@ -49,7 +49,7 @@ Promtail exposes these metrics:
 
 | Metric Name                               | Metric Type | Description                                                                                |
 | ----------------------------------------- | ----------- | ------------------------------------------------------------------------------------------ |
-| `promtail_read_bytes_total`               | Gauge       | Number of bytes read.                                                                      |
+| `promtail_read_bytes_total`               | Counter       | Number of bytes read.                                                                      |
 | `promtail_read_lines_total`               | Counter     | Number of lines read.                                                                      |
 | `promtail_dropped_bytes_total`            | Counter     | Number of bytes dropped because failed to be sent to the ingester after all retries.       |
 | `promtail_dropped_entries_total`          | Counter     | Number of log entries dropped because failed to be sent to the ingester after all retries. |
